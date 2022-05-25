@@ -1,0 +1,5 @@
+const txt = '{"status":"Claimed"}'
+const obj = JSON.parse(txt);
+document.getElementById("claim").innerHTML = obj.status
+
+
